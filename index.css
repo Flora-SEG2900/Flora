@@ -1,0 +1,223 @@
+/*Navar CSS*/
+
+.logo {
+
+    height: 85px;
+    width: 85px;
+
+
+
+
+
+}
+
+
+header {
+    background-color: #55d6aa;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    text-align: center;
+   
+
+
+
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+
+
+}
+
+nav {
+    float: right;
+    position: absolute;
+    text-align: left;
+    top: 100%;
+    left: 0;
+    background-color: #55d6aa;
+    width: 100%;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: transform 400ms ease-in-out;
+
+    
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 1em;
+
+
+}
+
+nav li {
+    margin-bottom: 1em;
+
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+
+
+
+}
+
+
+nav a:hover {
+    color: black;
+
+
+}
+
+/*Mobile Functionality*/
+
+.mobile-toggle:checked ~ nav{
+    transform: scale(1,1);
+
+
+
+}
+
+.mobile-toggle:checked ~ nav a {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out 250ms;
+
+
+
+}
+
+.mobile-toggle {
+    display: none;
+
+
+}
+
+.mobile-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.mobile-toggle-label span,
+.mobile-toggle-label span::before,
+.mobile-toggle-label span::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 33px;
+    border-radius: 2px;
+    position: relative;
+
+
+
+}
+
+.mobile-toggle-label span::before,
+.mobile-toggle-label span::after {
+    content: '';
+    position: absolute;
+
+
+}
+
+.mobile-toggle-label span::before {
+    bottom: 7px;
+
+
+
+
+}
+
+.mobile-toggle-label span::after {
+    top: 7px;
+
+
+}
+
+
+@media screen and (min-width: 800px) {
+    .mobile-toggle-label {
+        display: none;
+
+
+    }
+
+    header {
+        background-color: #55d6aa;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    text-align: left;
+
+    }
+
+    .logo {
+        float: left;
+        height: 100%;
+        align-items: center;
+
+
+    }
+
+    nav {
+        all: unset;
+        
+    }
+
+    nav a {
+        opacity: 1;
+
+
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: right;
+        height: 100%;
+        text-align: center;
+
+
+
+    }
+
+    nav li {
+        display: inline-block;
+        padding: 20px;
+        padding-bottom: 0;
+        padding-top: 15px;
+        margin-right: 20px;
+
+
+    }
+
+
+
+}
+
+body {
+    margin: 0;
+
+}

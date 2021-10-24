@@ -1,93 +1,66 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!--Title of the website-->
         <title>Specifications and Pricing</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Navbar information-->
+        <header>
+            <div class="header">
+                <!--Import CSS from index.css file-->
+                <link rel="stylesheet" href="index.css">
+                    <div class=container>
+                        <a href="homepage.html"><img src="Images/Flora-logos_black.png"alt="logo" class="logo"></a>
+                    </br>    
+                        <input type = "checkbox" class = "mobile-toggle" id = "mobile-toggle"></input>
+                        <nav>
+                            <ul>
+                                
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="BuyProduct.html">Buy</a></li>
+                                <li><a href="faq.html">FAQ</a></li>
+                                
+                            </ul>
+                        </nav>
+                        <label for="mobile-toggle" class="mobile-toggle-label"></label>
+                    </div>
+                </div>
+        </header>
+        </br> <!--No space between the nav bar and the top of the website-->
 
-        <style>
-            nav{
-                overflow: hidden;
-                background-color: #333;
-            }
-            a{
-                float:left;
-                display:block;
-                color: #f2f2f2;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-                font-size: 17px;
-            }
-            li{                
-                list-style-type: none;
-            }
-
-            a:hover{
-                background-color:lightgreen;
-                color: black;
-            }
-            
-            div.transbox {
-                background-color:#ffffff;
-                opacity: 0.6;
-                width: 300px;
-                height: 150px;
-                padding: 50px;
-                border: 1px solid black;
-                margin: 30px;
-            }
-
-            div.transbox p {
-                margin: 5%;
-                font-weight: bold;
-                color:black;
-            }
-            
-            div.Leaf-image{
-                background-image: url('picture1_homepage.jpeg');
-            }
-            footer{
-                text-align:right;
-                padding: 30px;
-                background-color:#333;  
-                color: white
-                /*opacity: 0.5;*/      
-            }
-
-        </style>
     </head>
-    
-    <nav>
-        <ul>
-            <li>
-                <a href="homepage.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="BuyProduct.html">Buy</a>
-                <a href="faq.html">FAQ</a>
-            </li>
-        </ul>
-    </nav>
 
-    <section>
-        <h1 style="font-size: 35px;"><center>Specifications and Pricing</center></h1>
-        <hr/>
-        <div class="Leaf-image">
-            <h3">Specifications</h3>
-            <div class="transbox">
-                <p>Image #1</p>
-            </div> 
-            <hr/> <!--Separates each sections-->
+    <body>
+        <link rel="stylesheet" href="specifications.css">
+        <!--<h1 style="font-size: 35px;"><center>Specifications and Pricing</center></h1>-->
+        <div class="body">
             
-            <!--Pricing section-->
-            <h3>Pricing</h3>
-            <div class="transbox">
-                <p>Image #2</p>
-            </div>  
-            <hr/>
+            <!--Title-->
+            <h1><center>Specifications and Pricing</center></h1>
+
+            <div class="Leaf-image">
+                <h3>Specifications</h3>
+                <img src="picture1_homepage.jpeg" alt="Jane" style="width:100%">
+                
+                <div class="transbox">
+                    <p>Image #1</p>
+                </div> 
+                <hr/> <!--Separates each sections-->
+                
+                <!--Pricing section-->
+                <h3>Pricing</h3>
+                <div class="transbox">
+                    <p>Image #2</p>
+                </div>  
+                <hr/>
+            </div>
         </div>
+        
         
         <button onclick="location.href='BuyProduct.html'" type="button">Buy it now</button>
 
         <footer>Footer</footer>
-    </section>
+    </body>
 
 </html>

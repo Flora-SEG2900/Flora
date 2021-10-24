@@ -1,0 +1,27 @@
+/*Specifications and Pricing CSS*/
+/*Melina Rochon*/
+
+
+div.body{
+    position:absolute;
+    top:100px;
+
+}
+
+h1 {
+    color: #6e6c5b;
+    font-family: 'Inder', sans-serif;
+    font-weight: 10; 
+    font-size:80px;
+    display: block;
+    text-align: center;
+    position:relative; 
+    top: 120px;
+    letter-spacing: 1px; 
+    padding: 40px; 
+}
+
+/*div.Leaf-image{
+    background-image: url('picture1_homepage.jpeg');
+}*/
+

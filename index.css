@@ -15,6 +15,7 @@
 header {
     background-color: #55d6aa;
     position: fixed;
+    -webkit-transform: translateZ(0); 
     z-index: 999;
     width: 100%;
     text-align: center;
@@ -659,5 +660,5 @@ background-color: #55d6aa;
 
 body {
     margin: 0;
-    
+        
 }

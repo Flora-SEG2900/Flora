@@ -12,7 +12,7 @@ body {
     font-family: 'Inder', sans-serif;
     font-weight: 10; 
     font-size:30px;
-    text-align: center;
+    text-align: right;
     margin-left: 80pt;
     margin-right: 80pt;
     margin-bottom: 0pt;
@@ -34,7 +34,7 @@ body {
 
 h1 {
     color: #6e6c5b;
-    font-family: 'Inder', sans-serif;
+    font-family: "Playfair Display";
     font-weight: 10; 
     font-size:100px;
     display: block;
@@ -66,9 +66,20 @@ h1 {
     font-family: 'Inder', sans-serif;
     font-weight: 10; 
     font-size:30px;
+    padding: 10px;
     text-align: center;
     margin-left: 80pt;
     margin-right: 80pt;
+    letter-spacing: 1px; 
+}
+.ourfounding {
+    color: grey;
+    font-family: 'Inder', sans-serif;
+    font-size:20px;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    margin-left: 400pt;
     letter-spacing: 1px; 
 }
 
@@ -105,4 +116,30 @@ h1 {
     padding: 10px;
   }
 
+.myButton{
+    padding: 10px;
+    background-color: #fd705d;
+    border: 0.5px;
+    color: #fff;
+  }
+.myButton:hover{
+    background-color: #fff;
+    border: 3px solid #049b36;
+    color: #1E88E5;
+    padding: 5px;
+    position: absolute
+
+
+  }
+
+  h3 {
+      color: blue;
+      font-family: GT-Haptik-Medium,sans-serif;
+      font-weight: 10; 
+      font-size:30px;
+      padding: 10px;
+      text-align: center;
+      letter-spacing: 1px; 
+  }
+  
 

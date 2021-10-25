@@ -1,0 +1,74 @@
+.Heading1 {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-align:center;
+    font-weight: bold;
+    color: black;
+
+
+
+
+}
+
+
+.sec_heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    display: inline;
+    float:right;
+    text-align:right;
+    font-weight: bold;
+    color: black;
+
+
+
+
+}
+
+.third_heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: None;
+    font-size: 30px;
+    display: inline;
+    float:left;
+    text-align:left;
+    font-weight: bold;
+    color: black;
+
+
+
+
+}
+
+
+
+.Buy_Page {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #55d6aa;
+    height: 75px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+
+
+}
+
+
+.Buy_Page:hover {
+    color: black;
+    transition: 0.5s;
+
+
+
+}

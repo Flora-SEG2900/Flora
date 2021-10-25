@@ -1,16 +1,67 @@
 <html>
     <head>
     <title>Buy Product</title>
+
+    <!--Meta name added for mobile functionality-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Everything under header tag is for navbar-->
+
+    <header>
+
+
+
+      <div class="header">
+          <!--Stylesheet for homepage. You can have more than 1 stylepage for each html file so add your one and don't edit this one.-->
+        <link rel="stylesheet" href="index.css">
+       
+
+        
+
+          <div class=container>
+
+            <a href = "homepage.html"><img src="Images/Flora-logos_black.png" alt="logo" class = "logo"></a>
+            
+          </br>
+            <input type = "checkbox" class = "mobile-toggle" id = "mobile-toggle"></input>
+            <nav>
+            
+              
+                <ul>
+                  
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="specifications_and_pricing.html">Specifications</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a class = "Current_Tab" href="BuyProduct.html">Buy</a></li>
+
+                </ul>
+            </nav>
+          
+            <label for="mobile-toggle" class="mobile-toggle-label">
+              <span></span>
+
+
+            </label>
+
+            
+          </div>
+
+        </div>
+
+    </header>
+
+    <link rel="stylesheet" href="BuyPage.css">
     </head>
     <body>
-        <h1><center>Buy</center></h1>
+        <br><br><br><br><br>
+        <h1 class="Heading1"><center>Buy</center></h1>
         <hr/>
-        <a href="about.html">About</a>
-    <a href="faq.html">FAQ</a>
-    <a href="specifications_and_pricing.html">Specifications</a>
-    <h2>Product Price</h2>
+        
+    <h2 class = "sec_heading">Product Price</h2>
+    <a href="www.google.ca" class = "third_heading">Link to app</a>
     <p><img src="filler.jpeg" alt = "Image of App" width="200" height="200"></p>
     <p><img src="flora.png" alt = "Image of App" width="200" height="200"></p>
-    <a href="BuyPage.html">Buy product</a>
+    <a class="Buy_page" href="BuyPage.html">Buy product</a>
     </body>  
 </html>

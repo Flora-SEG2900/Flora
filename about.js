@@ -1,26 +1,56 @@
 function Brevin() {
-    window.open(
-      "https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+    var txt;
+    if (confirm("Do you want connect with Brevin on LinkedIn?"))
+    {
+        window.open("https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+        txt = "Thank you for connecting with me!"
+    }
+    document.getElementById("LinkedIn").innerHTML = txt;
+    
 }
 
 function Rasheek() {
-    window.open(
-      "https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+      
+      if (confirm("Do you want connect with Rasheek on LinkedIn?"))
+    {
+        window.open("https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+        txt = "Thank you for connecting with me!"
+    }
+    document.getElementById("LinkedIn").innerHTML = txt;
+
 }
 
 function Vince() {
-    window.open(
-      "https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+      if (confirm("Do you want connect with Vince on LinkedIn?"))
+    {
+        window.open("https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+        txt = "Thank you for connecting with me!"
+    }
+    document.getElementById("LinkedIn").innerHTML = txt;
+
 }
 
 function Melina() {
-    window.open(
-      "https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+    
+    if (confirm("Do you want connect with Melina on LinkedIn?"))
+    {
+        window.open("https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+        txt = "Thank you for connecting with me!"
+    }
+    document.getElementById("LinkedIn").innerHTML = txt;
+
 }
 
 function Reyaan() {
-    window.open(
-      "https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+   
+      if (confirm("Do you want connect with Reyaan on LinkedIn?"))
+      {
+          window.open("https://www.linkedin.com/in/brevin-baskaran-4b060b215", "_blank");
+          txt = "Thank you for connecting with me!"
+      }
+      document.getElementById("LinkedIn").innerHTML = txt;
+
 }
+
 
 

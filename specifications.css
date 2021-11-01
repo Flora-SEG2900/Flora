@@ -1,24 +1,14 @@
 /*Specifications and Pricing CSS*/
 /*Melina Rochon*/
 
-
-div.body{
+/*Title bloc*/
+/*Specification and Pricing bloc*/
+.top{
     position:absolute;
     top: 85px;
-
-}
-
-div.specifications-header{
     width: 100%;
-    background-image: url("specifications-title.jpg");
-    height: 300px;
-    background-position: center;
-    margin-bottom: 0pt;
-    border: none;
-    padding: 60px;
-    display: block;
-    position: relative;
-
+    background-color: darkseagreen;
+    height: 325px;
 }
 
 h1 {
@@ -31,12 +21,98 @@ h1 {
     position:relative; 
     top: 10px;
     letter-spacing: 1px; 
-    padding: 50px; 
-    opacity: 100;    
+    padding: 50px;   
+}
+
+body, html {
+    height: 100%;
+}
+/*Header*/
+.body{
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    /*background-color: deeppink;*/
+    
+}
+
+/*Background image*/
+.bg{
+    position: relative;
+    top:300px;
+}
+
+.bg img{
+    height: 100%;
+    width: 100%;
+    top: 85px;
+    z-index: -1;
+    size: cover;
+    position: fixed; /*Notes: Could to a JS if statement to make the position switch from sticky to fixed*/
+    
+}
+
+/*.bg{
+    background-image: url("picture1_homepage.jpeg");
+    height: 100%;
+    width: 100%;
+    top:320px;
+    size: cover;
+}
+.bg{
+    position: sticky;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    z-index: -1; Brings the text to the front
+    /*overflow: hidden;
+    
+}*/
+
+
+.box_1{
+    /*Box*/
+    /*padding: 50%;
+    border: 15px green;
+    margin: 20px;*/
+    position: relative;
+    padding: 2%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.685);
+    top: 120px;
+    color: black;
+    z-index: -1;
+}
+
+/*Image Specifications*/
+.box_1 img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    
+    
+}
+
+.box_2{
+    position: relative;
+    padding: 2%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.685);
+    top: 500px;
+    color: black;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    right: 100px;
 }
 
 h3 {
     font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    font-weight: lighter;
+    color: #6e6c5b;
 }
 
 /*div.Leaf-image{

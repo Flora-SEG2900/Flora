@@ -2,13 +2,106 @@
     <head>
     <title>BuyPage</title>
     </head>
+    <header>
+
+
+
+        <div class="header">
+            <!--Stylesheet for homepage. You can have more than 1 stylepage for each html file so add your one and don't edit this one.-->
+          <link rel="stylesheet" href="index.css">
+         
+  
+          
+  
+            <div class=container>
+  
+              <a href = "homepage.html"><img src="Images/Flora-logos_black.png" alt="logo" class = "logo"></a>
+              
+            </br>
+              <input type = "checkbox" class = "mobile-toggle" id = "mobile-toggle"></input>
+              <nav>
+              
+                
+                  <ul>
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="specifications_and_pricing.html">Specifications</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a class = "Current_Tab" href="BuyProduct.html">Buy</a></li>
+  
+                  </ul>
+              </nav>
+            
+              <label for="mobile-toggle" class="mobile-toggle-label">
+                <span></span>
+  
+  
+              </label>
+  
+              
+            </div>
+  
+          </div>
+  
+      </header>
+  
+      <link rel="stylesheet" href="BuyPage.css">
+      </head>
+
     <body>
+      <br><br><br><br><br>
+      <h2 class = "sec_heading2">
+        Flora                    
+      </h2>
+
+
+    </div>
+  
+      <div class="specs">
+        <h3>  
+          <li>Plant recommendations - based on your skill</li><br> 
+          <li>Plant identification</li><br> 
+          <li>Plant Journal</li><br>
+          <li>Light meter will help you find plants for every corner of your home</li><br>
+          <li>Step by step guides</li><br>
+          <li>Smart Care Reminders</li>
+        
+        
+        </h3>
+      </div>
+
+      <div class= "price">
+        <h2>
+          $3.99
+        </h2>
+      </div>
+
+      <div class="container">
+        <div class = "card">
+          <button onclick= "decrement()">-</button>
+          <h2 id="root"></h2>
+          <button onclick= "increment()">+</button>
+        </div>
+      </div>
+      <script>
+        var data = 0;
+        document.getElementById("root").innerText=data;
+        function decrement(){
+          if(data>0){
+          data=data-1;
+          document.getElementById("root").innerText=data;
+          }
+        }
+        function increment(){
+          data=data+1;
+          document.getElementById("root").innerText=data;
+        }
+        
+      </script>
+
+
+      
     
-    <a href="about.html">About</a>
-    <a href="faq.html">FAQ</a>
-    <a href="specifications_and_pricing.html">Specifications</a>
-    <a href="BuyProduct.html">Buy</a>
-    <h2> Flora</h2>
     <p><img src="filler.jpeg" alt = "Image of App" width="500" height="500"></p>
     </body>  
 </html>

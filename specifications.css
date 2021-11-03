@@ -1,8 +1,12 @@
 /*Specifications and Pricing CSS*/
 /*Melina Rochon*/
 
-/*Title bloc*/
-/*Specification and Pricing bloc*/
+body, html {
+    height: 100%;
+}
+
+/*Title*/
+/*Specification and Pricing*/
 .top{
     position:absolute;
     top: 85px;
@@ -11,72 +15,31 @@
     height: 325px;
 }
 
-h1 {
-    color: #6e6c5b;
-    font-family: 'Inder', sans-serif;
-    font-weight: 10; 
-    font-size:70px;
-    display: block;
-    text-align: center;
-    position:relative; 
-    top: 10px;
-    letter-spacing: 1px; 
-    padding: 50px;   
-}
-
-body, html {
-    height: 100%;
-}
-/*Header*/
+/*Body section*/
 .body{
     position: absolute;
     top: 50px;
-    width: 100%;
-    /*background-color: deeppink;*/
-    
+    width: 100%;   
 }
 
-/*Background image*/
+/*Background functionality*/
 .bg{
     position: relative;
     top:300px;
 }
 
+/*Background image - Leafs*/
 .bg img{
     height: 100%;
     width: 100%;
     top: 85px;
     z-index: -1;
     size: cover;
-    position: fixed; /*Notes: Could to a JS if statement to make the position switch from sticky to fixed*/
-    
+    position: fixed; /*Notes: Could to a JS if statement to make the position switch from sticky to fixed*/  
 }
-
-/*.bg{
-    background-image: url("picture1_homepage.jpeg");
-    height: 100%;
-    width: 100%;
-    top:320px;
-    size: cover;
-}
-.bg{
-    position: sticky;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    z-index: -1; Brings the text to the front
-    /*overflow: hidden;
-    
-}*/
 
 /*Specifications section*/
-/*Text*/
 .box_1{
-    /*Box*/
-    /*padding: 50%;
-    border: 15px green;
-    margin: 20px;*/
     position: relative;
     padding: 2%;
     margin: 40px;
@@ -90,34 +53,45 @@ body, html {
 .box_1 img{
     position: absolute;
     top: 40px;
-    right: 40px;
-    
-    
+    right: 40px;  
 }
 
 /*Pricing section*/
+*{
+    box-sizing: border-box; /*For columns*/
+}
+
 .box_2{
     position: relative;
     padding: 2%;
     margin: 40px;
     background-color: rgba(255, 255, 255, 0.685);
-    top: 350px;
+    top: 200px;
     color: black;
 }
 
-p {
-    position:relative;
-    left: 0px;
-    margin-right: 40%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+/*Columns functionality*/
+/*Create two columns that floats next to each other*/
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
 }
 
-h3 {
-    font-size: 40px;
-    font-family: 'Inder', sans-serif;
-    font-weight: lighter;
-    color: #6e6c5b;
+/*Clear floats after the columns*/
+.box_2::after{
+    content: "";
+    display: table;
+    clear: both;
 }
+
+/*
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}*/
+
 
 /*div.Leaf-image{
     background-image: url('picture1_homepage.jpeg');
@@ -138,4 +112,42 @@ footer{
     color: white;
     padding: 2%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+/*Tag styles*/
+
+h1 {
+    color: #6e6c5b;
+    font-family: 'Inder', sans-serif;
+    font-weight: 10; 
+    font-size:70px;
+    display: block;
+    text-align: center;
+    position:relative; 
+    top: 10px;
+    letter-spacing: 1px; 
+    padding: 50px;   
+}
+
+p, p1 {
+    position:relative;
+    left: 0px;
+    margin-right: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    font-weight: lighter;
+    color: #6e6c5b;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    top: 0px;
+    margin-top: 0px;
 }

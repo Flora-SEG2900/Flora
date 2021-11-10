@@ -10,61 +10,127 @@
             <div class="header">
                 <!--Import CSS from index.css file-->
                 <link rel="stylesheet" href="index.css">
+
                     <div class=container>
+                        <!--Import Flora logo for the navigation bar-->
                         <a href="homepage.html"><img src="Images/Flora-logos_black.png"alt="logo" class="logo"></a>
                     </br>    
                         <input type = "checkbox" class = "mobile-toggle" id = "mobile-toggle"></input>
                         <nav>
                             <ul>
                                 
+                                <!--Navigation bar. Different pages of website-->
                                 <li><a href="about.html">About</a></li>
                                 <li><a class = "Current_Tab" href="specifications_and_pricing.html">Specifications</a></li>
                                 <li><a href="faq.html">FAQ</a></li>
                                 <li><a href="BuyProduct.html">Buy</a></li>
                                 
-                                
                             </ul>
                         </nav>
+
+                        <!--For mobile use-->
                         <label for="mobile-toggle" class="mobile-toggle-label"></label>
                     </div>
                 </div>
         </header>
     </br> <!--No space between the nav bar and the top of the website-->
-
+    <link rel="stylesheet" href="specifications.css">
     </head>
 
     <body>
-        <link rel="stylesheet" href="specifications.css">
-        <!--<h1 style="font-size: 35px;"><center>Specifications and Pricing</center></h1>-->
+                
+        <!--Title-->
+        <div class="top">
+            <h1><center>Specifications and Pricing</center></h1>
+            <!--<img src="specifications_header.jpeg" alt="Jane" style="width:100%">-->
+        </div>
+        
+        <!--Body section-->
         <div class="body">
             
-            <!--Title-->
-            <div class="specifications-header">
-                <h1><center>Specifications and Pricing</center></h1>
-                <!--<img src="specifications_header.jpeg" alt="Jane" style="width:100%">-->
+            <!--Background of the body section-->
+            <div class="bg"> <!--bg stands for background-->
+
+                <!--Background Image : Leafs-->
+                <img src="picture1_homepage.jpeg" alt="" style="width: 100%">
+
+                <!--Specifications section-->
+                <div class="box_1">
+                    <h3>Specifications</h3>
+                    <!--Product information-->
+                    <p> Flora analyses your plants and tells you their overall health. Our high-quality products help guide the 
+                        user throughout its Florian journey! Our application identity the plants and offers a brief description of 
+                        the selected plant. The upgraded version allows users to unlock various features to help them with their 
+                        plants' overall health and growth. You may find more relevant information down below in the Pricing 
+                        section.</p>
+                    <img src="details.jpg" style="width:35%; height:70%;">
+                </div> 
+                <!--Separates each sections-->
+                    
+                <!--Pricing section-->
+                <div class="box_2">
+                    <h3>Pricing</h3>
+                    <!--Pricing information-->
+                    <div class="column">
+                        <!--Application-->
+                        <h4>Application</h4>
+                        <p1> Flora is offered as an application. You can download it for free now on the app store or the 
+                                android app. </p1>
+                    </div>
+                    
+                    <div class="column">
+                        <!--Product-->
+                        <h4>Product</h4>
+                        <p1> Also offered as a bundle, the product gives permission to have more relevent information on the 
+                                plants. as well as identify the plants, their health, the amount of sunlight that</p1>
+                    </div>
+
+                    <!--Buy the product button-->
+                    <!--If clicked, redirect users to "Buy" page-->
+                    <a href="BuyPage.html" class="buy_now">Buy Now</a>
+
+
+                    
+                    
+                </div>  
+                
             </div>
-            <div class="background-body">
+
+            <!--<div class="background-body">
+                <div class="bg">
+                
+                <img src="picture1_homepage.jpeg" alt="Jane" style="width:100%">
+                </div> 
                 <h3>Specifications</h3>
                 <img src="picture1_homepage.jpeg" alt="Jane" style="width:100%; opacity:0.8">
                 
                 <div class="transbox">
                     <p>Image #1</p>
                 </div> 
-                <hr/> <!--Separates each sections-->
-                
-                <!--Pricing section-->
+                <hr/>
                 <h3>Pricing</h3>
                 <div class="transbox">
                     <p>Image #2</p>
                 </div>  
                 <hr/>
+            </div>-->
+        
+        
+            <!--Create space between boxes-->
+            <br><br><br>
+
+            <!--Footer-->
+            <div class="footer">
+                <!--<button onclick="location.href='BuyProduct.html'" type="button">Buy it now</button>-->
+
+                <footer>Footer</footer>
             </div>
+            
+            <!--Break-->
+            <br>
+
         </div>
         
-        
-        <button onclick="location.href='BuyProduct.html'" type="button">Buy it now</button>
-
-        <footer>Footer</footer>
     </body>
 
 </html>

@@ -1,25 +1,121 @@
 /*Specifications and Pricing CSS*/
 /*Melina Rochon*/
 
+body, html {
+    height: 100%;
+}
 
-div.body{
+/*Title*/
+/*Specification and Pricing*/
+.top{
     position:absolute;
     top: 85px;
-
-}
-
-div.specifications-header{
     width: 100%;
-    background-image: url("specifications-title.jpg");
-    height: 300px;
-    background-position: center;
-    margin-bottom: 0pt;
-    border: none;
-    padding: 60px;
-    display: block;
-    position: relative;
-
+    background-color: darkseagreen;
+    height: 325px;
 }
+
+/*Body section*/
+.body{
+    position: absolute;
+    top: 50px;
+    width: 100%;   
+}
+
+/*Background functionality*/
+.bg{
+    position: relative;
+    top:300px;
+}
+
+/*Background image - Leafs*/
+.bg img{
+    height: 100%;
+    width: 100%;
+    top: 85px;
+    z-index: -1;
+    size: cover;
+    position: fixed; /*Notes: Could to a JS if statement to make the position switch from sticky to fixed*/  
+}
+
+/*Specifications section*/
+.box_1{
+    position: relative;
+    padding: 2%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.685);
+    top: 120px;
+    color: black;
+    z-index: -1;
+}
+
+/*Image Specifications*/
+.box_1 img{
+    position: absolute;
+    top: 40px;
+    right: 40px;  
+}
+
+/*Pricing section*/
+*{
+    box-sizing: border-box; /*For columns*/
+}
+
+.box_2{
+    position: relative;
+    padding: 2%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.685);
+    top: 200px;
+    color: black;
+}
+
+/*Columns functionality*/
+/*Create two columns that floats next to each other*/
+.column{
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
+
+/*Clear floats after the columns*/
+.box_2::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+@media screen and (max-width:600px) {
+    .column {
+      width: 100%;
+    }
+}*/
+
+
+/*div.Leaf-image{
+    background-image: url('picture1_homepage.jpeg');
+}*/
+
+
+/*Footer*/
+.footer{
+    position: relative;
+    left: 0;
+    top: 600px;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+footer{
+    color: white;
+    padding: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+
+/*Tag styles*/
 
 h1 {
     color: #6e6c5b;
@@ -31,15 +127,27 @@ h1 {
     position:relative; 
     top: 10px;
     letter-spacing: 1px; 
-    padding: 50px; 
-    opacity: 100;    
+    padding: 50px;   
+}
+
+p, p1 {
+    position:relative;
+    left: 0px;
+    margin-right: 40%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h3 {
     font-size: 40px;
+    font-family: 'Inder', sans-serif;
+    font-weight: lighter;
+    color: #6e6c5b;
 }
 
-/*div.Leaf-image{
-    background-image: url('picture1_homepage.jpeg');
-}*/
-
+h4 {
+    font-size: 30px;
+    font-family: 'Inder', sans-serif;
+    font-weight: normal;
+    top: 0px;
+    margin-top: 0px;
+}

@@ -65,6 +65,7 @@
     align-items:center;
     height: 100px;
     padding: 100px;
+
 }
 
 h2{
@@ -194,6 +195,18 @@ input[name="r"]{
     height: 100%;
 }
 
+/*Product image dimensions*/
+
+.slide .img1 {
+    height: 400px;
+    width: 50px;
+    padding-left: 250px;
+    
+
+
+
+}
+
 #r1:checked ~ .s1{
     margin-left: 0;
 }
@@ -210,6 +223,7 @@ input[name="r"]{
     margin-left: -60%;
 }
 
+/* 
 .footer {
     position: absolute;
     bottom: 0;
@@ -219,6 +233,7 @@ input[name="r"]{
     
     
 }
+*/
 .column {
     float: left;
     object-position: 900px 800px;

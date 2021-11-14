@@ -1,3 +1,8 @@
+.wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
 .Heading1 {
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -46,6 +51,7 @@
 }
 
 .price{
+    resize: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     position: absolute;
@@ -72,6 +78,7 @@ h2{
     font-size: 50px;
 }
  button{
+     position: relative;
      width: 70px;
      height: 50px;
      outline: none;
@@ -136,7 +143,7 @@ h2{
 }
 
 .slidershow{
-    position: relative;
+    position: absolute;
     top: 15%;
     left:8%;
     width: 700px;
@@ -231,3 +238,4 @@ input[name="r"]{
     box-shadow: 0 2px 2px 0 rgba(187, 236, 182, 0.2);
   
   }
+

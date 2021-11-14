@@ -46,7 +46,7 @@ body, html {
     background-color: rgba(255, 255, 255, 0.685);
     top: 120px;
     color: black;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*Image Specifications*/
@@ -66,9 +66,32 @@ body, html {
     padding: 2%;
     margin: 40px;
     background-color: rgba(255, 255, 255, 0.685);
-    top: 200px;
+    top: 120px;
     color: black;
 }
+
+/*.box_2 img{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    z-index: 1;
+}*/
+
+.store_img_1 img{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    z-index: 1;
+}
+
+.store_img_2 img{
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    z-index: 1;
+}
+
+
 
 /*Columns functionality*/
 /*Create two columns that floats next to each other*/
@@ -85,6 +108,26 @@ body, html {
     clear: both;
 }
 
+.buy_now{
+    /*display: block;*/
+    margin: 10px;
+    
+    background-color: #55d6aa;
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    /*top: 100px;*/
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+}
+
 /*
 @media screen and (max-width:600px) {
     .column {
@@ -99,6 +142,18 @@ body, html {
 
 
 /*Footer*/
+.footer .footer-content .footer-section .text{
+    padding: 0px;
+    width: 100%;
+    display: inline;
+    float: center;
+    margin: 0px;
+   
+}
+/*.footer .footer-content .footer-section .text .hours .link{
+    text-align: left;
+}*/
+
 
 
 /*Tag styles*/
@@ -123,10 +178,10 @@ p, p1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h3 {
+h2 {
     font-size: 40px;
     font-family: 'Inder', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
     color: #6e6c5b;
 }
 
@@ -136,4 +191,12 @@ h4 {
     font-weight: normal;
     top: 0px;
     margin-top: 0px;
+}
+
+li{
+    /*position:relative;*/
+    /*left: 0px;*/
+    /*margin-right: 40%;*/
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

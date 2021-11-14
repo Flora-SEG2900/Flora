@@ -1,23 +1,108 @@
 .heading {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 30px;
-    color: black;
+    font-size: 60px;
+    color: darkgreen;
     text-transform: uppercase;
     text-decoration: underline;
+    background-color: lightgreen
 
 
 
 
 }
 
-.question {
+.question1 {
 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     color: black;
     text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
 
+}
 
+.question2 {
 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question3 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question4 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question5 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question6 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question7 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+
+.question8 {
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    border-style: inset;
+    color: darkgreen
+
+}
+.answer {
+
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  color: black;
+  text-transform: uppercase;
 
 }

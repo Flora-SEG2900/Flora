@@ -1,0 +1,14 @@
+Color Scheme: Many types of green (especially teal) and white (Green which represents nature. Our product Flora focuses completely on Nature). Most white space will be filled with a white background color.
+
+Sticky Navbar: Makes navigating through webpages a lot easier (Teal and White. Will have a black hover effect)
+
+Home-Page Slideshow: Have logo in the middle and will go through a few images which will give the auidence an idea about what the product is. 
+
+Footer: Footer will be at the bottom of all pages with the same teal color. It will include lots of icons such as a twitter icon.
+
+Font: Clean and easy to read , yet still stylish fonts (For eg. Trebuchet MS). Fonts will switch between black and white depending on the siuation. 
+
+Have a decent amount of white space so the website is easy on audience's eyes.
+
+
+
